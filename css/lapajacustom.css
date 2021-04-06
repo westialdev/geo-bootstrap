@@ -1,0 +1,25 @@
+pre{
+	background: none;
+	color: #00ff00;
+}
+
+.ascii .span5 {
+	display: inline-block;
+	width: 420px;
+}
+
+.ascii .span4 {
+	display: inline-block;
+	width: 350px;
+}
+
+.ascii .span3 {
+	display: inline-block;
+	width: 220px;
+}
+
+.marquee {
+	margin-top: 10px;
+	padding-top: 0;
+	color: #00cc00;
+}

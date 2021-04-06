@@ -1,18 +1,8 @@
-# Geo
+# Website for La Paja en el Ojo Ajeno
 
-**Geo** is a timeless [Twitter Bootstrap](http://twitter.github.com/bootstrap) theme built for the modern web.
+This is a timeless [Twitter Bootstrap](http://twitter.github.com/bootstrap) theme built for the podcast's website "La paja en el ojo ajeno"
 
-## Usage
-
-Download `bootstrap.css` or `bootstrap.min.css` from `/swatch`. Replace the default Bootstrap stylesheet with one of these files.
-
-To use the image backgrounds download the graphics inside `/img`. Graphics used on our test page can be found inside `/img/test`.
-
-## Customization
-
-Geo was built with [Bootswatch Swatchmaker](https://github.com/thomaspark/bootswatch/tree/gh-pages/swatchmaker).
-
-To customize Geo edit `/swatch/variables.less` and `/swatch/bootswatch.less`. Refer to the Swatchmaker [README](https://github.com/thomaspark/bootswatch/tree/gh-pages/swatchmaker) for instructions to regenerate the Bootstrap stylesheet.
+Mostly based on the project [Geo Bootstrap](https://github.com/divshot/geo-bootstrap)
 
 ## License
 
