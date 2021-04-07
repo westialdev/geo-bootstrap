@@ -23,3 +23,23 @@ pre{
 	padding-top: 0;
 	color: #00cc00;
 }
+
+section {
+	padding-top: 15px;
+}
+
+a.mp3 {
+	width: 80%;
+}
+
+#player {
+	display: none;
+	width: 120px;
+	height: 20px;
+	background-color: grey;
+	color: #000000;
+}
+
+td.player-cell {
+	width: 200px;
+}

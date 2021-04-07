@@ -1,6 +1,6 @@
 <!-- Happy April Fool's Day from Team Divshot!-->
 <!DOCTYPE html>
-<html lang="es">
+<html lang="es" xmlns="http://www.w3.org/1999/html">
 <head>
     <meta charset="utf-8">
     <title>Podcast "La paja en el ojo ajeno", un podcast que te puedes
@@ -23,10 +23,15 @@
     <link href="css/lapajacustom.css" rel="stylesheet">
 
     <!-- Global site tag (gtag.js) - Google Analytics -->
-    <script async src="https://www.googletagmanager.com/gtag/js?id=G-JKMDNBM1DF"></script>
+    <script async
+            src="https://www.googletagmanager.com/gtag/js?id=G-JKMDNBM1DF"></script>
     <script>
         window.dataLayer = window.dataLayer || [];
-        function gtag(){dataLayer.push(arguments);}
+
+        function gtag() {
+            dataLayer.push(arguments);
+        }
+
         gtag('js', new Date());
 
         gtag('config', 'G-JKMDNBM1DF');
@@ -59,6 +64,9 @@
 </div>
 
 <div class="container">
+
+
+    <center><img src="img/test/construction.gif"></center>
 
     <!-- Masthead
     ================================================== -->
@@ -109,13 +117,71 @@
                     <table cellpadding="2" cellspacing="2">
                         <tr>
                             <td>
+                                <a href="https://www.adobe.com/"
+                                   target="_blank"><img src="img/flash.gif"></a>
+                            </td>
+                            <td>
+                                <a href="https://isp.netscape.com/"
+                                   target="_blank"><img
+                                        src="img/test/ns_logo.gif"></a>
+                            </td>
+                            <td>
+                                <img src="img/logoarrakis.gif">
+                            </td>
+                            <td>
+                                <a href="https://us.napster.com/"
+                                   target="_blank"> <img
+                                        src="img/Napster-Logo-history.gif"></a>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>
+                                <a href="https://www.ks-soft.net/ip-tools.eng/index.htm"
+                                   target="_blank">
+                                    <img src="img/iptools.gif">
+                                </a>
+                            </td>
+                            <td><a href="http://astalavista.com/"
+                                   target="_blank">
+                                <img src="img/Asta_120x90_v3.gif"></a>
+                            </td>
+                            <td>
+                                <img src="img/EMule_mascot.gif">
+                            </td>
+                            <td>
+                                <a href="https://www.movistar.es"
+                                   target="_blank">
+                                    <img src="img/131x40_terralogo.gif">
+                                </a>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td colspan="2">
+                                <a href="https://en.wikipedia.org/wiki/Kim_Dotcom"
+                                   target="_blank">
+                                    <img src="img/megavideo.gif">
+                                </a>
+                            </td>
+                            <td>
+                                <a href="https://www.adobe.com/"
+                                   target="_blank"><img
+                                        src="img/Macromedia_Dreamweaver_MX.gif"></a>
+                            </td>
+                            <td>
                                 <img src="img/test/ie_logo.gif">
                             </td>
-                            <td>
-                                <img src="img/test/ns_logo.gif">
-                            </td>
+                        </tr>
+                        <tr>
                             <td>
                                 <img src="img/test/noframes.gif">
+                            </td>
+                            <td>
+                                <a href="https://myspace.com/"
+                                   target="_blank"><img
+                                        src="img/myspace.gif"></a>
+                            </td>
+                            <td>
+                                <img src="img/seriesyonkis.gif">
                             </td>
                             <td>
                                 <img src="img/test/notepad.gif">
@@ -135,35 +201,23 @@
             <h1>Programas</h1>
         </div>
 
-        <center><img src="img/test/construction.gif"></center>
-
         <table class="table table-bordered table-striped table-hover">
             <thead>
             <tr>
-                <th>#</th>
-                <th>First Name</th>
-                <th>Last Name</th>
-                <th>Username</th>
+                <th>Programa</th>
+                <th>Entrega</th>
+                <th>Info</th>
+                <th></th>
+                <th></th>
             </tr>
             </thead>
             <tbody>
             <tr>
-                <td>1</td>
-                <td>Mark</td>
-                <td>Otto</td>
-                <td>@mdo</td>
-            </tr>
-            <tr>
-                <td>2</td>
-                <td>Jacob</td>
-                <td>Thornton</td>
-                <td>@fat</td>
-            </tr>
-            <tr>
-                <td>3</td>
-                <td>Larry</td>
-                <td>the Bird</td>
-                <td>@twitter</td>
+                <td>0.1.0-alpha</td>
+                <td>2021-04-07</td>
+                <td><a href="#">Detalles</a></td>
+                <td class="player-cell"><a class="btn btn-small play-btn mp3" href="#programas" data-mp3="programa1original-release-v1.preview2_3.mp3">Reproducir</a></td>
+                <td><a class="btn btn-inverse btn-small mp3" href="#" data-mp3="programa1original-release-v1.preview2_3.mp3">Descargar</a></td>
             </tr>
             </tbody>
         </table>
@@ -172,7 +226,7 @@
 
     <!-- Inicio
     ================================================== -->
-    <section id="inicio" style="padding-top: 0">
+    <section id="inicio">
         <div class="page-header">
             <h1>La paja en el ojo ajeno</h1>
         </div>
@@ -225,7 +279,7 @@
 
     <!-- Pirados
     ================================================== -->
-    <section id="pirados" style="padding-top: 0">
+    <section id="pirados">
         <div class="page-header">
             <h1>Quiénes son estos pirados</h1>
         </div>
@@ -277,7 +331,8 @@
                 <p>No es parte del equipo pero como si lo fuese. Este podcast
                     existe gracias a su música, que ofrece con licencia Creative
                     Commons
-                    desde la web <a href="https://incompetech.filmmusic.io/" target="_blank">https://incompetech.filmmusic.io</a>.
+                    desde la web <a href="https://incompetech.filmmusic.io/"
+                                    target="_blank">https://incompetech.filmmusic.io</a>.
                     Kevin, estamos en deuda contigo, si alguna vez nos necesitas
                     no dudes en contactarnos.</p>
             </div>
@@ -295,7 +350,7 @@
 
     <!-- Pirados
     ================================================== -->
-    <section id="gracias" style="padding-top: 0">
+    <section id="gracias">
         <div class="page-header">
             <h1>Eternamente agradecidos</h1>
         </div>
@@ -318,11 +373,14 @@
             </div>
             <div class="span4">
                 <h2>Audacity</h2>
-                <p>Este es el programa open-source de edición de audio con el que editamos nuestras entregas.
+                <p>Este es el programa open-source de edición de audio con el
+                    que editamos nuestras entregas.
                 </p>
                 <p>
-                    Programa multipista, multiplataforma, fácil de usar y desarrollado por un grupo de voluntarios
-                    con un resultado excepcional, <a href="https://www.audacityteam.org/" target="_blank">https://www.audacityteam.org/</a>.
+                    Programa multipista, multiplataforma, fácil de usar y
+                    desarrollado por un grupo de voluntarios
+                    con un resultado excepcional, <a
+                        href="https://www.audacityteam.org/" target="_blank">https://www.audacityteam.org/</a>.
                 </p>
             </div>
             <div class="span4">
@@ -348,7 +406,7 @@
 
     <!-- Contacto
     ================================================== -->
-    <section id="contacto" style="padding-top: 0">
+    <section id="contacto">
         <div class="page-header">
             <h1>Contacto</h1>
         </div>
@@ -365,7 +423,7 @@
 
     <!-- Legal
     ================================================== -->
-    <section id="legal" style="padding-top: 0">
+    <section id="legal">
         <div class="page-header">
             <h1>Legal</h1>
         </div>
@@ -422,7 +480,59 @@
 <script src="bootstrap/docs/assets/js/bootstrap-carousel.js"></script>
 <script src="bootstrap/docs/assets/js/bootstrap-typeahead.js"></script>
 <script src="bootstrap/docs/assets/js/bootstrap-affix.js"></script>
-<script src="bootswatch.js"></script>
+<script src="js/bootswatch.js"></script>
+
+<script src="js/microne.js"></script>
+<script>
+    var playerId = "player";
+    var mainPlayer;
+    var loadMp3 = function (player, mp3) {
+        player.source(mp3);
+        player.play();
+    };
+    var showPlayer = function (player) {
+        player.style.display = "block";
+        player.style.width = "100%";
+        player.style.height = "50px";
+    };
+    var hidePlayer = function (player) {
+        player.style.display = "none";
+    };
+    var playBtns = document.getElementsByClassName("play-btn");
+
+    function addPlayerElement (parentElement) {
+        var playerDiv = document.createElement("div");
+        playerDiv.id = playerId;
+        parentElement.appendChild(playerDiv);
+    }
+
+    function removePlayerElement () {
+        var playerDiv = document.getElementById(playerId);
+        if ("undefined" !== typeof(mainPlayer)) mainPlayer.unload();
+        if (playerDiv) {
+            var siblings = playerDiv.parentNode.childNodes;
+            for (let i = 0; i < siblings.length; i++) {
+                siblings[i].style.display = "block";
+            }
+            playerDiv.parentNode.removeChild(playerDiv);
+        }
+    }
+
+    var playBtnClick = function() {
+        removePlayerElement();
+        addPlayerElement(this.parentNode);
+        var mp3Dir = "mp3/";
+        var playerElement = document.getElementById(playerId);
+        showPlayer(playerElement);
+        mainPlayer = new Microne(playerElement)
+        loadMp3(mainPlayer, mp3Dir + this.getAttribute("data-mp3"));
+        this.style.display = "none";
+    };
+
+    for (var i = 0; i < playBtns.length; i++) {
+        playBtns[i].addEventListener('click', playBtnClick, false);
+    }
+</script>
 
 
 </body>
