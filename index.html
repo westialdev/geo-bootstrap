@@ -106,7 +106,7 @@
             <div class="row">
                 <div class="span6">
                     <h1>
-                        <img src="img/test/7upspot.gif">
+                        <blink>I.T.</blink><img src="img/test/7upspot.gif">
                         <blink>Podcast</blink>
                     </h1>
                     <h2>Producto y Programación</h2>
@@ -216,8 +216,13 @@
                 <td>0.1.0-alpha</td>
                 <td>2021-04-07</td>
                 <td><a href="#">Detalles</a></td>
-                <td class="player-cell"><a class="btn btn-small play-btn mp3" href="#programas" data-mp3="programa1original-release-v1.preview2_3.mp3">Reproducir</a></td>
-                <td><a class="btn btn-inverse btn-small mp3" href="#" data-mp3="programa1original-release-v1.preview2_3.mp3">Descargar</a></td>
+                <td class="player-cell"><a class="btn btn-small play-btn mp3"
+                                           href="#programas"
+                                           data-mp3="programa1original-release-v1.preview2_3.mp3">Reproducir</a>
+                </td>
+                <td><a class="btn btn-inverse btn-small mp3" href="#"
+                       data-mp3="programa1original-release-v1.preview2_3.mp3">Descargar</a>
+                </td>
             </tr>
             </tbody>
         </table>
@@ -308,14 +313,14 @@
             </div>
         </div>
         <div class="row">
-            <div class="span4">
+            <div class="span6">
                 <h2>Uno de Producto y otro Programador</h2>
                 <p>Como en todo proyecto donde se cruzan nuestros equipos,
                     también hemos tenido nuestros rifirrafes. Queremos reirnos
                     de ellos y del ambiente geek, freak y a la vez acogedor que
                     nos rodea en nuestro trabajo.</p>
             </div>
-            <div class="span4">
+            <div class="span6">
                 <h2>El Sr. Pajilla, mascota impuesta</h2>
                 <p>Siguiendo la normativa de la GDPRX sobre robots en medios de
                     comunicación nos hemos visto
@@ -323,18 +328,6 @@
                     robóticas.</p>
                 <p>El Sr. Pajilla es un estorbo necesario, sentimos
                     profundamente las molestias.</p>
-            </div>
-            <div class="span4">
-                <h2>No somos nada sin <a
-                        href="https://en.wikipedia.org/wiki/Kevin_MacLeod">Kevin
-                    MacLeod</a></h2>
-                <p>No es parte del equipo pero como si lo fuese. Este podcast
-                    existe gracias a su música, que ofrece con licencia Creative
-                    Commons
-                    desde la web <a href="https://incompetech.filmmusic.io/"
-                                    target="_blank">https://incompetech.filmmusic.io</a>.
-                    Kevin, estamos en deuda contigo, si alguna vez nos necesitas
-                    no dudes en contactarnos.</p>
             </div>
         </div>
 
@@ -360,6 +353,31 @@
             <div class="span12">
                 <h1>Aupa el open source y las licencias pro creatividad!</h1>
             </div>
+        </div>
+        <div class="row">
+            <div class="span4">
+                <h2>No somos nada sin <a
+                        href="https://en.wikipedia.org/wiki/Kevin_MacLeod">Kevin
+                    MacLeod</a></h2>
+                <p>No es parte del equipo pero como si lo fuese. Este podcast
+                    existe gracias a su música, que ofrece con licencia Creative
+                    Commons
+                    desde la web <a href="https://incompetech.filmmusic.io/"
+                                    target="_blank">https://incompetech.filmmusic.io</a>.
+                    Kevin, estamos en deuda contigo, si alguna vez nos necesitas
+                    no dudes en contactarnos.</p>
+            </div>
+            <div class="span4">
+                <h2>Sintonía del podcast "Jetfire" de <a href="https://www.youtube.com/c/JeffII">Jeff II</a></h2>
+                <p>Muchísimas gracias por la genial sintonía que hemos descargado con
+                licencia Creative Commons. Es más de lo que necesitábamos.</p>
+                <ul>
+                    <li>Jetfire - Jeff II <a href="https://youtu.be/ZbyFsGMjfRg" target="_blank">https://youtu.be/ZbyFsGMjfRg</a></li>
+                    <li>Creative Commons Attribution</li>
+                    <li>Free Download / Stream: <a href="http://bit.ly/-jetfire" target="_blank">http://bit.ly/-jetfire</a></li>
+                    <li>Music promoted by Audio Library <a href="https://youtu.be/nrIxa0jbhwE" target="_blank">https://youtu.be/nrIxa0jbhwE</a></li>
+                </ul>
+            </div>
             <div class="span4">
                 <h2>Voz generada con `espeak`</h2>
                 <p>Muchas gracias al proyecto <a
@@ -371,6 +389,8 @@
                             href="https://www.pexels.com/photo/star-wars-r2-d2-2085831/"
                             target="_blank">Photo by Luis J. from Pexels</a></p>
             </div>
+        </div>
+        <div class="row">
             <div class="span4">
                 <h2>Audacity</h2>
                 <p>Este es el programa open-source de edición de audio con el
@@ -384,7 +404,15 @@
                 </p>
             </div>
             <div class="span4">
-                <h2>Base del diseño tan cool de esta página</h2>
+                <h2>Reproductor minimalista</h2>
+                <p>Acertado proyecto de reproductor de audio de diseño y código
+                    minimalista.
+                    <a href="https://github.com/kodedninja/microne"
+                       target="_blank>">https://github.com/kodedninja/microne</a>.
+                </p>
+            </div>
+            <div class="span4">
+                <h2>Plantilla del diseño de esta página</h2>
                 <p>Un diseño tan moderno no podía salir de la mente de un gestor
                     de producto o de las manos
                     de un programador. Este diseño es una horquilla del proyecto
@@ -500,15 +528,15 @@
     };
     var playBtns = document.getElementsByClassName("play-btn");
 
-    function addPlayerElement (parentElement) {
+    function addPlayerElement(parentElement) {
         var playerDiv = document.createElement("div");
         playerDiv.id = playerId;
         parentElement.appendChild(playerDiv);
     }
 
-    function removePlayerElement () {
+    function removePlayerElement() {
         var playerDiv = document.getElementById(playerId);
-        if ("undefined" !== typeof(mainPlayer)) mainPlayer.unload();
+        if ("undefined" !== typeof (mainPlayer)) mainPlayer.unload();
         if (playerDiv) {
             var siblings = playerDiv.parentNode.childNodes;
             for (let i = 0; i < siblings.length; i++) {
@@ -518,7 +546,7 @@
         }
     }
 
-    var playBtnClick = function() {
+    var playBtnClick = function () {
         removePlayerElement();
         addPlayerElement(this.parentNode);
         var mp3Dir = "mp3/";

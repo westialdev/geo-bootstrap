@@ -10,12 +10,12 @@ pre{
 
 .ascii .span4 {
 	display: inline-block;
-	width: 350px;
+	width: 360px;
 }
 
 .ascii .span3 {
 	display: inline-block;
-	width: 220px;
+	width: 240px;
 }
 
 .marquee {
