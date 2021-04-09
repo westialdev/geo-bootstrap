@@ -7,6 +7,6 @@
         destination.load(`programa/${version}.html`);
         loading.hide();
     }
-    let params = new URLSearchParams(window.location.search);
+    var params = new URLSearchParams(window.location.search);
     if (params.has("v")) loadDetails(params.get("v"));
 })(window.jQuery);
