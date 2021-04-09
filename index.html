@@ -295,7 +295,14 @@
 
     <!-- Detalles Programa
     ================================================== -->
-    <section id="detalles-programa"></section>
+    <section id="detalles-programa">
+        <div id="show-loading" class="row">
+            <div class="span4"></div>
+            <div class="span4"><img class="center-block" alt="cargando..." src="img/loading.gif" /></div>
+            <div class="span4"></div>
+        </div>
+        <div id="show"></div>
+    </section>
 
     <!-- Pirados
     ================================================== -->
@@ -539,18 +546,7 @@
 
 <script src="js/microne.js"></script>
 <script src="js/lapajamicrone.js"></script>
-
-<script>
-    (function ($) {
-        var loadDetails = function (version) {
-            var destination = $("#detalles-programa");
-            destination.load(`programa/${version}.html`);
-            destination.show();
-        }
-        let params = new URLSearchParams(window.location.search);
-        if (params.has("v")) loadDetails(params.get("v"));
-    })(window.jQuery);
-</script>
+<script src="js/lapajashow.js"></script>
 
 </body>
 </html>
