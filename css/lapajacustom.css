@@ -43,3 +43,11 @@ a.mp3 {
 td.player-cell {
 	width: 200px;
 }
+
+#detalles-programa {
+	display: none;
+}
+
+.right-small-btn > h1 {
+	text-align: right;
+}
