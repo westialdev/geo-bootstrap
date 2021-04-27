@@ -9,7 +9,7 @@ pre{
 
 .ascii .span4 {
 	display: inline-block;
-	width: 380px;
+	width: 360px;
 }
 
 .ascii .span3 {
@@ -19,7 +19,7 @@ pre{
 
 .ascii .span5 {
 	display: inline-block;
-	width: 440px;
+	width: 420px;
 }
 
 .marquee {
