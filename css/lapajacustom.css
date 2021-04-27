@@ -6,19 +6,19 @@ pre{
 	color: #00ff00;
 }
 
-.ascii .span5 {
-	display: inline-block;
-	width: 420px;
-}
-
 .ascii .span4 {
 	display: inline-block;
-	width: 360px;
+	width: 380px;
 }
 
 .ascii .span3 {
 	display: inline-block;
 	width: 240px;
+}
+
+.ascii .span5 {
+	display: inline-block;
+	width: 440px;
 }
 
 .marquee {
