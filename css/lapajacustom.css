@@ -7,6 +7,11 @@ pre{
 	font-size: 90%;
 }
 
+ul {
+	padding-bottom: 0.5em;
+	border-bottom: darkslategrey solid 1px;
+}
+
 .ascii .span4 {
 	display: inline-block;
 	width: 340px;
