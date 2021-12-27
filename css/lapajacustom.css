@@ -33,10 +33,6 @@ ul {
 	color: #00cc00;
 }
 
-section {
-	padding-top: 15px;
-}
-
 a.mp3 {
 	width: 80%;
 }
@@ -55,8 +51,19 @@ td.player-cell {
 
 #detalles-programa {
 	display: none;
+	padding-top: 50px;
 }
 
 .right-small-btn > h1 {
 	text-align: right;
+}
+
+header {
+	padding-bottom: 0;
+	margin-bottom: 0;
+}
+
+section {
+	padding-top: 0;
+	margin-top: 0;
 }
